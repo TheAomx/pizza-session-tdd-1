@@ -17,7 +17,7 @@ zu refactoren. Wenn dies erledigt ist, solltet ihr euch einen weiteren Testfall 
    - wenn die Zahl durch 3 und durch 5 teilbar ist: sage "FizzBuzz"
    - andernfalls: sage die Zahl selbst
 
-Also z.B. wenn man in einer Runde die Zahlen 1 bis 5 hochzählen würde: 1, 2, Fizz, 4, Buzz.
+Also z.B. wenn man in einer Runde die Zahlen 1 bis 15 hochzählen würde: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz.
 
 2. Es soll eine Funktion `String fizz(int number)` implementiert werden, welche die Regeln des FizzBuzz-Spiels umsetzt. Als Eingabe-Parameter wird die Zahl, welche aufgesagt werden soll,
    erwartet. Der Rückgabewert der Funktion ist dann entweder die Zahl selbst, Fizz, Buzz oder FizzBuzz. Es sind hierbei die oben bereits beschriebenen Spielregeln anzuwenden.
