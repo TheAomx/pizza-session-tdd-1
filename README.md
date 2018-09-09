@@ -28,7 +28,7 @@ Also z.B. wenn man in einer Runde die Zahlen 1 bis 5 hochzählen würde: 1, 2, F
   - Fizz soll auch zurückgegeben werden, wenn die Zahl eine 3 als Ziffer enthält, z.B. 13.
   - Buzz soll auch zurückgegeben werden, wenn die Zahl eine 5 als Ziffer enthält, z.B. 52.
 
-# Aufgabe 2: FizzBuzz
+# Aufgabe 2: String Calculator
 1. Erstelle eine simplem String Kalkulator mit der Methode `int add(String numbers)`
   - Der Methode können 0, 1, oder 2 Nummern übergeben werden, die Rückgabe soll die Summe der Nummern sein.
   - Die einzelnen Nummern werden mittels "," getrennt in einem String der Methode übergeben.
