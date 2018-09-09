@@ -30,9 +30,11 @@ Also z.B. wenn man in einer Runde die Zahlen 1 bis 5 hochzählen würde: 1, 2, F
 
 # Aufgabe 2: FizzBuzz
 1. Erstelle eine simplem String Kalkulator mit der Methode `int add(String numbers)`
-  - Der Methode kann 0, 1, oder 2 numbers übergeben werden, die Rückgabe soll die Summe der numbers sein. (Für einen leeren String soll = 0 zurückgegeben werden)
-  - Schreibe einen einfachen Testfall für einen leeren String und wechsle zu einem bzw. zwei Strings.
+  - Der Methode können 0, 1, oder 2 Nummern übergeben werden, die Rückgabe soll die Summe der Nummern sein.
+  - Die einzelnen Nummern werden mittels "," getrennt in einem String der Methode übergeben.
+  - Für einen leeren String soll = 0 zurückgegeben werden.
   - Somit liefert beispielsweise add("") = 0, add("1") = 1 und add("1,2") = 3
+  - Schreibe einen einfachen Testfall für einen leeren String und wechsle zu einem bzw. zwei Strings.
 
 2. Wandle die add – Methode so um, dass ihr eine beliebige Anzahl von Nummern im numbers-Argument übergeben werden können. Somit sollte z.B. auch add("1,2,3,4") = 10 berechnet werden können.
 
