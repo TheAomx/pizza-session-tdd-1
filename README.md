@@ -38,7 +38,7 @@ Also z.B. wenn man in einer Runde die Zahlen 1 bis 15 hochzählen würde: 1, 2, 
 
 2. Wandle die add – Methode so um, dass ihr eine beliebige Anzahl von Nummern im numbers-Argument übergeben werden können. Somit sollte z.B. auch add("1,2,3,4") = 10 berechnet werden können.
 
-3. Wandle die add – Methode so um, dass sie mit  Zeilenumbrüchen so umgeht, als wären es Kommata. Also z.B. add("1,2\n3,4") = add(1,2,3,4) = 10
+3. Wandle die add – Methode so um, dass sie mit  Zeilenumbrüchen so umgeht, als wären es Kommata. Also z.B. add("1,2\n3,4") = add("1,2,3,4") = 10
 
 4. Wenn die add – Methode mit einer negativen Nummer aufgerufen wird, soll der Fehler “negatives not allowed” mit den ungültigen Nummern zurückgegeben werden.
 
